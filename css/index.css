@@ -32,6 +32,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 4.9rem;
+    overflow-x: hidden;
 }
 
 .header-box {
