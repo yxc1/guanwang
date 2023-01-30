@@ -1,0 +1,172 @@
+.banner-content {
+    background: url(../imgs/dataCapability/banner背景.png) 50%;
+}
+
+.banner-content-img {
+    width: 25.5rem;
+    background: url(../imgs/dataCapability/果冻绘写数据能力.png) no-repeat;
+}
+
+.sm-banner-content {
+    background: url(../imgs/dataCapability/小banner.png) 50%;
+}
+
+.data-capability-content {
+    width: 100%;
+    height: 115rem;
+    padding: 4.75rem 0 7.5rem 0;
+    box-sizing: border-box;
+}
+
+.data-capability-content .data-capability-box {
+    margin-top: 7rem;
+    position: relative;
+}
+
+.data-capability-content .data-capability-box .data-capability-bg {
+    width: calc(100% - 15rem);
+    margin-left: 7.5rem;
+    height: 84rem;
+    top: 7rem;
+    position: absolute;
+    background: url(../imgs/dataCapability/bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-position-y: 0px; */
+    z-index: 9;
+}
+
+.data-capability-content .data-capability-box .data-capability-item {
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-capability-content .data-capability-box .data-capability-item:last-of-type {
+    margin-bottom: 0px;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-left,
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-right {
+    width: calc(50% - 1.5rem);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 10 !important;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-title {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #313131;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-text {
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #787878;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+    text-align-last: auto;
+    line-height: 1.35rem;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 499px) {
+    .banner-content {
+        background: url(../imgs/dataCapability/数据banner背景.png) no-repeat;
+        background-size: 100% 100%;
+        height: 26.6rem;
+    }
+
+    .banner-content-img {
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .data-capability-content {
+        height: auto;
+        padding: 8rem 0 2rem 0;
+    }
+
+    .data-capability-content .data-capability-box {
+        margin-top: 5rem;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-bg {
+        width: calc(100% - 2rem);
+        height: calc(100% - 30rem);
+        margin-left: 1rem;
+        background: url(../imgs/dataCapability/数据-线.png) no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-position-y: 11rem;
+        top: 0;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item {
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 4rem;
+        padding: 0 1rem;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1),
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) {
+        flex-direction: column-reverse;
+        
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1) .data-capability-item-text,
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) .data-capability-item-text {
+        margin-left: 0;
+        text-align: left;
+    }
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1) .data-capability-item-title,
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) .data-capability-item-title {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-left,
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-right {
+        width: 100%;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-title {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #313131;
+        margin-top: 2rem;
+        text-align: right;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-text {
+        font-size: 1.2rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #787878;
+        width: 80%;
+        text-align: right;
+        margin-left: 20%;
+    }
+    .sm-banner-content{
+        height: 24rem;
+        background: url(../imgs/dataCapability/小banner.png)  50%;
+    }
+}

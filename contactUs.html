@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./imgs/icon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>果冻绘写-联系我们</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contactUs.css">
+    <script src="./js/jq.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部部分 -->
+    <header class="header-box"></header>
+    <script src="./js/header.js"></script>
+    <!-- 头部部分结束 -->
+    <!--主体内容-->
+    <div class="content">
+        <div class="banner-content">
+            <div class="banner-content-img"></div>
+            <div class="banner-content-text">以金融大数据为驱动的债券、股权智能辅助撰写工具</div>
+            <div class="banner-btn">申请免费试用</div>
+        </div>
+        <div class="my-container">
+            <div class="online-support">
+                <div class="line-title">
+                    <div class="left-line"></div>
+                    <div class="title">线上支持</div>
+                    <div class="right-line"></div>
+                </div>
+                <div class="QR-code-content">
+                    <div class="QR-code--item">
+                        <img class="QR-img" src='./imgs/contactUs/公众号.png'></img>
+                        <div class="QR-title">公众号</div>
+                        <div class="QR-text">专业产品知识、热门行业资讯<br>行业报告发布</div>
+                    </div>
+                    <div class="QR-code--item">
+                        <img class="QR-img" src='./imgs/contactUs/专属客服.png'></img>
+                        <div class="QR-title">专属客服</div>
+                        <div class="QR-text">08:00 - 24:00迅速响应<br>免费咨询</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-content">
+            <div class="map-box" id="map-box"></div>
+            <div class="offline-service">
+                <div class="offline-service-title">线下服务</div>
+                <div class="offline-service-text">覆盖北京、上海、南京、杭州、 深圳、广州，提供定期培训支持 及大版本更新讲解</div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容结束 -->
+    <!-- 底部部分 -->
+    <footer class="footer-box"></footer>
+    <script src="./js/footer.js"></script>
+    <!-- 底部部分结束 -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=6069b08fc84bdbe23c7df9d5ebdd01d9">
+    </script>
+    <script>
+        //初始化地图插件
+        window.onload = function () {
+            var map = new AMap.Map('map-box', {
+                zoom: 17, //缩放级别
+                center: [120.01838133121493, 30.283093629485958], //地图显示中心点坐标，如果没有center属性，则会定位到你当前所处的位置
+            });
+
+            var marker = new AMap.Marker({
+                position: new AMap.LngLat(120.01838133121493,
+                    30.283093629485958), // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
+                title: '杭州投知信息技术有限公司',
+                anchor: 'bottom-center',
+            });
+            // 将创建的点标记添加到已有的地图实例：
+            map.add(marker);
+
+        }
+    </script>
+</body>
+
+</html>
