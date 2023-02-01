@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     z-index: 101;
-
+    box-shadow: 0 10px 15px rgb(0 128 255 / 10%);
 }
 
 .header-container .my-container {
