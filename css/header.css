@@ -30,7 +30,6 @@
 .header-container .my-container .header-menu-item {
     height: 2rem;
     font-size: 0.9rem;
-    font-family: PingFang;
     font-weight: 700;
     color: #535353;
     margin-right: 2.75rem;
@@ -50,7 +49,6 @@
     background: linear-gradient(90deg, #006AB2, #16D8D8);
     border-radius: 0.2rem;
     font-size: 0.9rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 2rem;
