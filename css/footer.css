@@ -12,7 +12,6 @@
     height: 2rem;
     background: #252525;
     font-size: 0.7rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #ABABAB;
     line-height: 2rem;
@@ -39,7 +38,6 @@
 
 .footer-container .footer-content .footer-logo-content .footer-company {
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #CBCBCB;
 
@@ -47,7 +45,6 @@
 
 .footer-container .footer-content .footer-logo-content .footer-address {
     font-size: 0.8rem;
-    font-family: PingFang;
     color: #CBCBCB;
 }
 
@@ -55,7 +52,6 @@
 
 .footer-container .footer-content .footer-menu-content .footer-menu-title {
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #ffffff;
     padding-top: 0.4rem;
@@ -64,7 +60,6 @@
 
 .footer-container .footer-content .footer-menu-content .footer-menu-item {
     font-size: 0.8rem;
-    font-family: PingFang;
     color: #CBCBCB;
     line-height: 1.4rem;
 }
@@ -112,14 +107,12 @@
     .footer-container .footer-content .footer-logo-content .footer-company,
     .footer-container .footer-content .footer-menu-content .footer-menu-title {
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #CBCBCB;
     }
 
     .footer-container .footer-content .footer-logo-content .footer-address {
         font-size: 1.3rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #CBCBCB;
         margin-top: 1rem;
@@ -127,7 +120,6 @@
 
     .footer-container .footer-content .footer-menu-content .footer-menu-item {
         font-size: 1.3rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #CBCBCB;
         line-height: 2.4rem;
