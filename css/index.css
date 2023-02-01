@@ -15,6 +15,8 @@ body {
     height: 100%;
     min-width: 1200px;
     font-size: 20px;
+    font-family: -apple-system, "Helvetica Neue", "Nimbus Sans L", "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+        "Source Han Sans CN", "Source Han Sans SC", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
 a {
@@ -67,7 +69,6 @@ a {
     width: 27.5rem;
     height: 2.25rem;
     font-size: 1rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 2.25rem;
@@ -83,7 +84,6 @@ a {
     background: #FFFFFF;
     border-radius: 0.2rem;
     font-size: 1rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
     line-height: 2.4rem;
@@ -94,7 +94,6 @@ a {
 
 .sm-banner-content-text {
     font-size: 1.8rem;
-    font-family: PingFang;
     font-weight: 800;
     color: #FFFFFF;
 }
@@ -114,7 +113,6 @@ a {
     background: rgba(255, 255, 255, 0.4);
     border-radius: 0.2rem;
     font-size: 1.4rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 2.8rem;
@@ -146,7 +144,6 @@ a {
 
 .line-title .title {
     font-size: 1.8rem;
-    font-family: PingFang;
     font-weight: bold;
     color: #313131;
     margin: 0 0.5rem;
@@ -212,14 +209,12 @@ a {
 
     .line-title .title {
         font-size: 2.4rem !important;
-        font-family: PingFang SC !important;
         font-weight: bold !important;
         color: #313131 !important;
     }
 
     .sm-banner-content-text {
         font-size: 2.4rem;
-        font-family: PingFang SC;
         font-weight: 800;
         color: #FFFFFF;
         text-align: center;
@@ -229,7 +224,6 @@ a {
         width: 13.3rem;
         height: 3.7rem;
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #FFFFFF;
         line-height: 3.7rem;
@@ -240,17 +234,16 @@ a {
         height: 3.7rem;
         background: #FFFFFF;
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #006AB2;
         line-height: 3.7rem;
     }
+
     .banner-content-text {
         width: calc(100% - 1rem);
         height: auto;
         padding: 0.5rem 1.5rem;
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
     }
 }
