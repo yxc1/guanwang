@@ -46,7 +46,6 @@
 
 .QR-code-content .QR-code--item .QR-title {
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #313131;
     margin-bottom: 0.75rem;
@@ -54,7 +53,6 @@
 
 .QR-code-content .QR-code--item .QR-text {
     font-size: 0.9rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #787878;
     text-align: center;
@@ -83,7 +81,6 @@
 
 .map-content .offline-service .offline-service-title {
     font-size: 1.8rem;
-    font-family: PingFang;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 4.25rem;
@@ -92,7 +89,6 @@
 .map-content .offline-service .offline-service-text {
     width: 17.5rem;
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: 800;
     color: #FFFFFF;
 }
@@ -137,14 +133,12 @@
 
     .QR-code-content .QR-code--item .QR-title {
         font-size: 2.1rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #313131;
     }
 
     .QR-code-content .QR-code--item .QR-text {
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #787878;
     }
@@ -168,13 +162,11 @@
 
     .map-content .offline-service .offline-service-title {
         font-size: 2.4rem;
-        font-family: PingFang SC;
         font-weight: bold;
     }
 
     .map-content .offline-service .offline-service-text {
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 800;
         width: 23rem;
     }
