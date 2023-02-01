@@ -59,7 +59,6 @@
     background: rgba(255, 255, 255, 0.4);
     border-radius: 0.15rem;
     font-size: 1.4rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 2.75rem;
@@ -74,8 +73,6 @@
     background: #FFFFFF;
     border-radius: 0.2rem;
     font-size: 1.2rem;
-    ;
-    font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
     text-align: center;
@@ -126,7 +123,6 @@
     margin-top: 2.15rem;
     font-size: 0.8rem;
     padding: 0 6rem;
-    font-family: PingFang;
     font-weight: 400;
     color: #313131;
     text-align: center;
@@ -357,7 +353,6 @@
 .advantage-box .advantage-card-box .advantage-card .advantage-card-title {
     height: 1.3rem;
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: 800;
     color: #313131;
     line-height: 1.3rem;
@@ -377,7 +372,6 @@
     width: 100%;
     display: flex;
     font-size: 0.9rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #787878;
     padding: 0 2rem;
@@ -401,7 +395,6 @@
     border: 1px solid #006AB2;
     border-radius: 0.2rem;
     font-size: 0.9rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
     position: absolute;
@@ -488,7 +481,6 @@
 
 .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-title {
     font-size: 1.2rem;
-    font-family: PingFang;
     font-weight: bold;
     color: #006AB2;
     text-align: center;
@@ -501,7 +493,6 @@
 
 .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-text {
     font-size: 0.9rem;
-    font-family: PingFang-SC-Medium;
     font-weight: 500;
     color: #535353;
     text-align: center;
@@ -603,14 +594,12 @@
 
 .research-box .research-card h5 {
     font-size: 1rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #313131;
 }
 
 .research-box .research-card .card-text {
     font-size: 0.8rem;
-    font-family: PingFang;
     font-weight: 500;
     color: #999999;
 }
@@ -662,7 +651,6 @@
         height: 5.1rem;
         background: none;
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #FFFFFF;
         text-align: left;
@@ -679,7 +667,6 @@
         height: 3.7rem;
         line-height: 3.7rem;
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #006AB2;
     }
@@ -700,7 +687,6 @@
     .pattern-box .pattern-text {
         padding: 0 2rem;
         font-size: 1.8rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #313131;
         margin-top: 5rem;
@@ -719,7 +705,6 @@
 
     .advantage-box .advantage-card-box .advantage-card .advantage-card-title {
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 800;
         color: #313131;
     }
@@ -738,7 +723,6 @@
 
     .advantage-box .advantage-card-box .advantage-card .advantage-card-text {
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #787878;
     }
@@ -747,7 +731,6 @@
         width: 13rem;
         height: 3.7rem;
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #006AB2;
         line-height: 3.7rem;
@@ -803,14 +786,12 @@
 
     .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-title {
         font-size: 2.1rem;
-        font-family: PingFang SC;
         font-weight: bold;
         color: #006AB2;
     }
 
     .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-text {
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #535353;
     }
@@ -840,14 +821,12 @@
 
     .research-box .research-card h5 {
         font-size: 1.9rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #313131;
     }
 
     .research-box .research-card .card-text {
         font-size: 1.6rem;
-        font-family: PingFang SC;
         font-weight: 500;
         color: #999999;
     }
